@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+void main()
+{ 
+setlocale(LC_ALL,"ry");
+int a,b,c;
+cout<<"Введите первое число <a>"<<endl;
+cin>>a;
+cout<<"Введите вторрое число <b>"<<endl;
+cin>>b;
+c=a+b;
+cout<<"с = "<<c<<endl;
+}
