@@ -3,11 +3,13 @@ using namespace std;
 void main()
 { 
 setlocale(LC_ALL,"ry");
-int a,b,c;
+int a,b,c,d;
 cout<<"Введите первое число <a>"<<endl;
 cin>>a;
-cout<<"Введите вторрое число <b>"<<endl;
+cout<<"Введите второе число <b>"<<endl;
 cin>>b;
-c=a+b;
-cout<<"с = "<<c<<endl;
+cout<<"Введите третье число <d>"<<endl;
+cin>>d;
+d=c+a+b;
+cout<<"d = "<<d<<endl;
 }
