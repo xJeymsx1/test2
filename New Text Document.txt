@@ -1,0 +1,15 @@
+#include <iostream>
+using nmaspace std;
+void main()
+{
+setlocale(LC_ALL,"ru");
+int a,b,c,d;
+cout<<"Vvedite 1-e chislo <a>"<<endl;
+cin>>a;
+cout<<"Vvedite 2-e chislo <b>"<<endl;
+cin>>b;
+cout<<"Vvedite 3-e chislo <d>"<<endl;
+cin>>d;
+c=a+b+d;
+cout<<"c = "<<c<<endl;
+}
